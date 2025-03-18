@@ -1,6 +1,40 @@
 .recipe {
-  width: 800px;
-  padding: 1rem;
+  width: 730px;
+  padding: 2rem;
+  background: hsl(0, 0%, 100%);
+  margin: 5rem 0;
+  border-radius: 25px;
+}
+.recipe__img img {
+  border-radius: 15px;
+}
+.recipe__content {
+  margin-top: 2rem;
+}
+.recipe__title {
+  font-size: 42px;
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 0;
+}
+.recipe__time {
+  background: hsl(330, 100%, 98%);
+  padding: 2rem;
+  font-family: "Outfit", sans-serif;
+  border-radius: 10px;
+}
+.recipe__time h3 {
+  margin-top: 0;
+  color: hsl(332, 51%, 32%);
+}
+.recipe__time ul {
+  margin-bottom: 0;
+}
+.recipe__time-list-item {
+  margin-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+  padding-left: 15px;
 }
 
 *,
@@ -20,4 +54,19 @@ body {
 
 img {
   width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+  color: hsl(30, 10%, 34%);
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);
 }/*# sourceMappingURL=styles.css.map */

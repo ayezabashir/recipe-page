@@ -1,5 +1,40 @@
 .recipe{
-    width: 800px;
+    width: 730px;
     padding: $spacing-s;
-
+    background: $white;
+    margin: $spacing-l 0;
+    @include border-radius(25px);
+    &__img{
+        img{
+            @include border-radius(15px);
+        }
+    }
+    &__content{
+        margin-top: $spacing-s;
+    }
+    &__title{
+        font-size: $text-l;
+        font-family: $font-young-serif;
+        font-weight: 500;
+        color: $stone-900;
+        margin-bottom: 0;
+    }
+    &__time{
+        background: $rose-50;
+        padding: $spacing-s;
+        font-family: $font-outfit;
+        @include border-radius(10px);
+        h3{
+            margin-top: 0;
+            color: $rose-800;
+        }
+        ul{
+            margin-bottom: 0;
+        }
+        &-list-item{
+            margin-bottom: 10px;
+            color: $stone-600;
+            padding-left: 15px;
+        }
+    }
 }

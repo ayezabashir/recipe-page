@@ -8,13 +8,28 @@
   box-sizing: border-box;
 }
 
-body{
-    @include flex-center();
-    padding: 0;
-    margin: 0;
-    background: $stone-100;
+body {
+  @include flex-center();
+  padding: 0;
+  margin: 0;
+  background: $stone-100;
 }
 
-img{
+img {
   width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+p {
+  font-size: $text-s;
+  font-family: $font-outfit;
+  line-height: 1.6;
+  color: $stone-600;
+}
+
+li::marker {
+  color: $rose-800;
 }
