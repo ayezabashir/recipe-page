@@ -30,6 +30,28 @@ p {
   color: $stone-600;
 }
 
-li::marker {
+h3{
+  margin-top: 0;
   color: $rose-800;
+}
+ul{
+  margin-bottom: 0;
+}
+h3, h4, h5, h6, li, tr{
+  font-family: $font-outfit;
+}
+
+h2{
+  font-size: $text-m;
+  font-family:$font-young-serif;
+  font-weight: 500;
+  color: $brown-800;
+}
+li{
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+table{
+  width: 100%;
 }

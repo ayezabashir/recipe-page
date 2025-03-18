@@ -21,20 +21,50 @@
 .recipe__time {
   background: hsl(330, 100%, 98%);
   padding: 2rem;
-  font-family: "Outfit", sans-serif;
   border-radius: 10px;
 }
-.recipe__time h3 {
-  margin-top: 0;
+.recipe__time-list-item {
+  color: hsl(30, 10%, 34%);
+}
+.recipe__time-list-item::marker {
   color: hsl(332, 51%, 32%);
 }
-.recipe__time ul {
-  margin-bottom: 0;
+.recipe__ingredients ul {
+  list-style-type: square;
 }
-.recipe__time-list-item {
-  margin-bottom: 10px;
+.recipe__ingredients-list-item {
+  color: hsl(14, 45%, 36%);
+}
+.recipe__ingredients-list-item::marker {
+  color: hsl(14, 45%, 36%);
+  font-size: 12px;
+}
+.recipe__instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 15px;
+}
+.recipe__instructions-list-item {
   color: hsl(30, 10%, 34%);
-  padding-left: 15px;
+}
+.recipe__instructions-list-item::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.recipe__nutrition h2 {
+  margin-bottom: 10px;
+}
+.recipe__nutrition-row {
+  width: 100%;
+}
+.recipe__nutrition-row td {
+  width: 50%;
+  padding: 10px 15px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  color: hsl(30, 10%, 34%);
+}
+.recipe__nutrition-row td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
 }
 
 *,
@@ -67,6 +97,31 @@ p {
   color: hsl(30, 10%, 34%);
 }
 
-li::marker {
+h3 {
+  margin-top: 0;
   color: hsl(332, 51%, 32%);
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+h3, h4, h5, h6, li, tr {
+  font-family: "Outfit", sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  color: hsl(14, 45%, 36%);
+}
+
+li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+table {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

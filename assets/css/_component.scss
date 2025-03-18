@@ -22,19 +22,53 @@
     &__time{
         background: $rose-50;
         padding: $spacing-s;
-        font-family: $font-outfit;
         @include border-radius(10px);
-        h3{
-            margin-top: 0;
-            color: $rose-800;
+        &-list-item{
+            color: $stone-600;
+            &::marker {
+                color: $rose-800;
+              }
         }
+    }
+    &__ingredients{
         ul{
-            margin-bottom: 0;
+            list-style-type: square;
         }
         &-list-item{
-            margin-bottom: 10px;
+            color: $brown-800;
+            &::marker {
+                color: $brown-800;
+                font-size: 12px;
+              }
+        }
+    }
+    &__instructions{
+        border-bottom: 1px solid $stone-150;
+        padding-bottom: 15px;
+        &-list-item{
             color: $stone-600;
-            padding-left: 15px;
+            &::marker {
+                color: $brown-800;
+                font-weight: 600;
+              }
+        }
+    }
+    &__nutrition{
+        h2{
+            margin-bottom: 10px;
+        }
+        &-row{
+            width: 100%;
+            td{
+                width: 50%;
+                padding: 10px 15px;
+                border-bottom: 1px solid $stone-150;
+                color: $stone-600;
+                &:last-child{
+                    color: $brown-800;
+                    font-weight: 700;
+                }
+            }
         }
     }
 }
