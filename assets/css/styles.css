@@ -66,6 +66,18 @@
   color: hsl(14, 45%, 36%);
   font-weight: 700;
 }
+@media (max-width: 768px) {
+  .recipe {
+    width: initial;
+    margin: 2rem;
+  }
+  .recipe__title {
+    font-size: 22px;
+  }
+  .recipe__time {
+    padding: 1rem;
+  }
+}
 
 *,
 *::after,
@@ -117,6 +129,11 @@ h2 {
   color: hsl(14, 45%, 36%);
 }
 
+@media (max-width: 768px) {
+  h2 {
+    font-size: 20px;
+  }
+}
 li {
   margin-bottom: 10px;
   padding-left: 15px;

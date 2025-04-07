@@ -47,6 +47,12 @@ h2{
   font-weight: 500;
   color: $brown-800;
 }
+
+@include mobile{
+  h2{
+    font-size: 20px;
+  }
+}
 li{
   margin-bottom: 10px;
   padding-left: 15px;
